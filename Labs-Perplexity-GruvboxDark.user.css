@@ -192,16 +192,20 @@ code {
 	color: #98971a !important;
 	background-color:#1a1b1d !important;
 }
+
+/*Code attribute values*/
 span.token.attr-value{
 	color:#fb4934 !important;
 }
 
+
+/*Realted to code -> self explanorty*/
 span.token.punctuation{
 	color:#fe8019 !important;
 }
 
 
-
+/*code every word*/
 span.token{
 	color:#ebdbb2 !important;
 }
@@ -217,10 +221,6 @@ span.token.constant{
 }
 
 
-span.string{
-	color:black !important;
-}
-
 
 /*Code bg wrapper*/
 .codeWrapper>:nth-child(2) {
@@ -234,7 +234,7 @@ background-color: #1a1b1d !important;
 
 
 /*That awful space in the code block that was not being colored */
-
+/*fixed using the Span color*/
 span{
 	
 	background-color:#1a1b1d !important;
