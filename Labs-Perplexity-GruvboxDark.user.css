@@ -206,25 +206,87 @@ span.token{
 	color:#ebdbb2 !important;
 }
 
+/*operators in code*/
+span.token.operator{
+	color: #fb4934 !important;
+}
+
+/*constants  in code*/
+span.token.constant{
+	color:#8ec07c !important;
+}
+
+
+span.string{
+	color:black !important;
+}
+
+
 /*Code bg wrapper*/
 .codeWrapper>:nth-child(2) {
 background-color: #1a1b1d !important;
 }
 
 
-	.dark .dark\:prose-invert {
 
 	
     
-		/*Text inside backticks*/
-    --tw-prose-code: #689d6a !important;
 
+
+/*That awful space in the code block that was not being colored */
+
+span{
 	
- 
-   
+	background-color:#1a1b1d !important;
 }
 
 
+
+
+
+
+
+
+
+/*Lower seperator*/
+/*Ask anything user input seperator*/
+:not([hidden]) ~ :not([hidden])  { 
+    border-color: #d5c4a152 !important;
+} 
+
+
+
+
+
+
+/*Black input area and more **ASK ANYTHING AREA***/
+.dark\:bg-offsetDark  { 
+    --tw-bg-opacity: 1; 
+    background-color:#16181a !important;
+} 
+
+
+
+/*BOrder around the app*/
+.dark\:border-borderMainDark\/80  { 
+    border-color: #79740e91 !important;
+} 
+  
+
+
+/*Lower part of the bg color*/
+
+.dark\:bg-backgroundDark  { 
+    --tw-bg-opacity: 1; 
+    background-color: #16181a !important;
+} 
+
+
+
+/*Color of every black color in the bg*/
+html { 
+    background-color: #17191b;
+} 
 
 
 
