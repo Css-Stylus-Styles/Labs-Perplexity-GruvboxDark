@@ -120,7 +120,9 @@
 	
 	
 	
-	
+	#lamma-select{
+		color:#fb4934 !important;
+	}
 	
 	
 	
@@ -190,7 +192,7 @@ div.absolute.text-textMainDark{
 /*Code color bg */
 code {
 	color: #98971a !important;
-	background-color:#1a1b1d !important;
+	
 }
 
 /*Code attribute values*/
@@ -224,7 +226,7 @@ span.token.constant{
 
 /*Code bg wrapper*/
 .codeWrapper>:nth-child(2) {
-background-color: #1a1b1d !important;
+background-color: #282828 !important;
 }
 
 
@@ -233,12 +235,7 @@ background-color: #1a1b1d !important;
     
 
 
-/*That awful space in the code block that was not being colored */
-/*fixed using the Span color*/
-span{
-	
-	background-color:#1a1b1d !important;
-}
+
 
 
 
