@@ -189,11 +189,8 @@ div.absolute.text-textMainDark{
 
 
 
-/*Code color bg */
-code {
-	color: #98971a !important;
-	
-}
+
+
 
 /*Code attribute values*/
 span.token.attr-value{
@@ -280,10 +277,6 @@ background-color: #282828 !important;
 
 
 
-/*Color of every black color in the bg*/
-html { 
-    background-color: #17191b;
-} 
 
 
 
