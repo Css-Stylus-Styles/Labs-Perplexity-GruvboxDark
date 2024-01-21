@@ -6,7 +6,7 @@
 @author         Me
 ==/UserStyle== */
 
-@-moz-document domain("labs.perplexity.ai") {
+@-moz-document domain("https://labs.perplexity.ai]")  {
     /* Insert code here... */
 	
 	:root {
@@ -281,10 +281,25 @@ background-color: #282828 !important;
 
 
 
+/* This where the Perplexity AI website styles will be  */
 
+/* big text where knowledge begins is hidden*/
+/* I dont like the way it looks i want to keep the page minimal */ 
+.text-4xl {
+	opacity: 0 !important ; 
+  font-size: 3rem;
+	color: #79740e !important; 
+	
+  line-height: 1;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+}
 
-
-
+/* Side bar colors for older chats 
+new thread color as well   */
+.line-clamp-1, .line-clamp-2 {
+  color: #8ec07c !important
+}
 
 
 
