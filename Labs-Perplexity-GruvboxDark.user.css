@@ -304,8 +304,12 @@ new thread color as well   */
 
 
 
+/*  prompt amd response color*/
 
-
+.\[word-break\:break-word\] {
+    word-break: break-word;
+	color : #d5c4a1 !important ; 
+}
 
 
 
