@@ -311,12 +311,31 @@ new thread color as well   */
 	color : #d5c4a1 !important ; 
 }
 
+.\[word-break\:break-word\] :hover  {
+    word-break: break-word;
+	color : #b8bb26 !important ; 
+}
+
+
+
 /*  Sources Answers and related  */
 h2 {
 	color : #fe8019 !important ; 
 }
 
 
+h2:hover
+{
+	color: #fb4934 !important;  
+}
+
+
+/* Hover for the suggested responses
+*/
+.text-base:hover {
+color: #b8bb26 !important ; 
+    
+}
 
 
 	
