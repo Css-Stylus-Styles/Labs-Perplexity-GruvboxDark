@@ -14,7 +14,7 @@
 
 ## Description <a name="description"></a>
 
-This user style applies the  gruvbox theme to  [Google Colab Website](https://colab.research.google.com/) 
+This user style applies the  gruvbox theme to  [Perplexity Labs](https://labs.perplexity.ai/) 
 
 - Applies a better dark theme to `Google Colab` inspired by Gruvbox Colors
 - Customized colors for Code blocks (customized for python like syntax)
@@ -51,6 +51,8 @@ Two right next to the icon shows that there are two styles active for the websti
 ![image](https://github.com/bilalazh/Google-Chivo-Font-On-every-website-/assets/139261053/a0c78478-203e-48fe-a1e2-98ff0aa8fff0)
 
 >When  you go to google Colab website you should see a 1 next to the extension icon 
+
+
 ## Screenshot <a name="screenshot"></a>
 
 #### Front page single cell view 
@@ -71,7 +73,5 @@ Two right next to the icon shows that there are two styles active for the websti
 
 #### TODOs : 
 
-- Check the Syntax highlighting for R and other languages
-- Check other places where the theme may not be applied 
-- chamge colors is need be 
+- Change Background color a little 
 
