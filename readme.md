@@ -16,10 +16,10 @@
 
 This user style applies the  gruvbox theme to  [Perplexity Labs](https://labs.perplexity.ai/) 
 
-- Applies a better dark theme to `Google Colab` inspired by Gruvbox Colors
-- Customized colors for Code blocks (customized for python like syntax)
-- Applies on both Light and Dark Mode
-
+- Applies gruvbox dark theme to labs.perplexity.ai 
+- Better code block colors 
+- Better seperation of elements 
+- Easier on eyes when reading at night 
 
 
 
