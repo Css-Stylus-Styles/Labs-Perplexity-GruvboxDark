@@ -6,7 +6,7 @@
 @author         Me
 ==/UserStyle== */
 
-@-moz-document domain("https://labs.perplexity.ai]")  {
+@-moz-document url("https://labs.perplexity.ai/")  {
     /* Insert code here... */
 	
 	:root {
@@ -119,9 +119,9 @@
 }
 	
 	
-	
+/*Select models 	 */
 	#lamma-select{
-		color:#fb4934 !important;
+		color:#b8bb26 !important;
 	}
 	
 	
@@ -133,6 +133,10 @@
     letter-spacing: .1em;
 	color:#79740e !important;
 }
+	
+	
+	
+/* NOT SURE WHAT THIS APPLIES TO 	 */
 	.dark .dark\:bg-offsetPlusDark {
     --tw-bg-opacity: 1;
 		color:#cc241d !important;
@@ -142,7 +146,9 @@
 	
 
 		
-}
+
+
+
 	.dark .dark\:bg-superDark {
     --tw-bg-opacity: 1;
 		color:#17191b !important;
@@ -174,7 +180,7 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
 /*Tokens per second and more */
 	
 .tracking-wide {
-	color:#b57614 !important;
+	color:#8ec07c !important;
     letter-spacing: .025em;
 }
 
@@ -187,45 +193,75 @@ div.absolute.text-textMainDark{
 
 
 
+/*CODE BLOCKS */
+Code{
+	font-family:/*"CommitMono" ,  , "Jetbrains Mono","Cascadia Code" , "chivo Mono"         */ "CommitMono" , monospace!important; 
+	font-size: 0.85rem !important; 
+	font-weight: 500 !important; 
+	
+	line-height: 1.2rem !important ; 
+	color: #f57d26 !important;
+	background: #16181a !important ; 
+}
 
 
+
+/*I DONT KNOW WHAT THIS DOES BUT IT WORKS   */
+code >span.token {
+		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
+	font-size: 0.85rem !important; 
+	font-weight: 500 !important;
+	color : #b8bb26 !important ; 
+}
 
 
 
 /*Code attribute values*/
 span.token.attr-value{
+		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
+font-size: 0.9rem !important; 
+	font-weight: 500 !important;
 	color:#fb4934 !important;
 }
 
 
 /*Realted to code -> self explanorty*/
-span.token.punctuation{
-	color:#fe8019 !important;
+code>span.token.punctuation{
+		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
+	font-size: 0.9rem !important; 
+	font-weight: 500 !important;
+	color:#689d6a !important;
 }
 
 
-/*code every word*/
-span.token{
-	color:#ebdbb2 !important;
-}
+
+
 
 /*operators in code*/
-span.token.operator{
+code>span.token.operator{
+		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
+font-size: 0.8rem !important; 
+	font-weight: 500 !important;
 	color: #fb4934 !important;
 }
 
-/*constants  in code*/
-span.token.constant{
-	color:#8ec07c !important;
+/*BOOLEAN */
+span.token.boolean{
+	color: #8ec07c !important;
+	font-size: 0.8rem !important; 
+	font-weight: 500 !important;
 }
+
+
+
+
 
 
 
 /*Code bg wrapper*/
 .codeWrapper>:nth-child(2) {
-background-color: #282828 !important;
+background-color: #1d2021 !important;
 }
-
 
 
 	
@@ -263,7 +299,7 @@ background-color: #282828 !important;
 
 /*BOrder around the app*/
 .dark\:border-borderMainDark\/80  { 
-    border-color: #79740e91 !important;
+    border-color: #1d2021 !important;
 } 
   
 
@@ -277,9 +313,65 @@ background-color: #282828 !important;
 
 
 
+/*MAIN MIDDLE CODE BLOCK GROUYDN COLOR   */
+div.sc-gEvEer.ePundr >span{
+	background: #16181a !important ; 
+}
 
 
 
+
+
+
+
+
+
+
+/*External links in the chat :visited  */
+a.break-word.decoration-from-font.underline.underline-offset-1{
+	color: #fb4934 !important; 
+	
+}
+	
+/* Hover in links 	 */
+a.break-word.decoration-from-font.underline.underline-offset-1:hover{
+	color: #b8bb26 !important; 
+	
+}
+
+
+
+
+
+
+
+/*BOLD TEXT   */
+	.prose :where(strong):not(:where([class~=not-prose] *)) 
+{
+
+	font-size: 1rem !important; 
+    font-weight: bolder;
+ color : #79740e !important; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*This is thankfully not being applied  */
 
 /* This where the Perplexity AI website styles will be  */
 
@@ -308,38 +400,12 @@ new thread color as well   */
 
 .\[word-break\:break-word\] {
     word-break: break-word;
-	color : #d5c4a1 !important ; 
-}
-
-.\[word-break\:break-word\] :hover  {
-    word-break: break-word;
-	color : #b8bb26 !important ; 
+	color : #ebdbb2 !important ; 
 }
 
 
-
-/*  Sources Answers and related  */
-h2 {
-	color : #fe8019 !important ; 
-}
-
-
-h2:hover
-{
-	color: #fb4934 !important;  
-}
-
-
-/* Hover for the suggested responses
-*/
-.text-base:hover {
-color: #b8bb26 !important ; 
-    
-}
 
 
 	
-
 	
-	
-
+}
