@@ -25,9 +25,9 @@ This user style applies the  gruvbox theme to  [Perplexity Labs](https://labs.pe
 
 
 ## Prerequisites <a name="Pre"></a>
-Theme works with either Light or Dark Theme enabled (Some areas may differ between light and dark modes)
+You will need an extension that mangages and applies this theme 
+here are links and steps to install this 
 
-----------------------------------------------------------------------
 ## _Important:_
 
 >  Make sure you have Stylus Extension installed. If you don't have it installed already, [CLICK HERE](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) to install it from Chrome Webstore. You can pin it to see the active styles on any website at any time.
@@ -38,7 +38,7 @@ Theme works with either Light or Dark Theme enabled (Some areas may differ betwe
 
 
 
-To install the style, go to this [LINK HERE](https://userstyles.world/style/12183/google-bard-gruvbox-dark-theme-enable-dark-mode)) and follow the instructions to install this style. 
+To install the style, go to this [LINK HERE](ADD link here) and follow the instructions to install this style. 
 
 
 
