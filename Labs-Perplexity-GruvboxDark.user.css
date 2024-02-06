@@ -150,16 +150,16 @@
 		
 
 
-
+/* TRY perplexity button  */
 	.dark .dark\:bg-superDark {
     --tw-bg-opacity: 1;
-		color:#17191b !important;
-    background-color: #d5c4a1 !important;
+		color:#79740e !important;
+    background-color: #ebdbb2 !important;
 }
 	
 		/*Copy Button Aask perplexity PLX  And tey perplcity text button */
 	.text-align-center.relative {
-		color:#79740e !important;
+		color:#98971a !important;
 }
 
 	
@@ -203,10 +203,19 @@ Code{
 	
 	line-height: 1.2rem !important ; 
 	color: #f57d26 !important;
-	background: #16181a !important ; 
+	background: #17191b !important ; 
 }
 
 
+	
+/* 	 light background color */
+div.default.font-sans{
+	background-color : #1a1b1d !important ; 
+	}
+
+
+	
+	
 
 /*I DONT KNOW WHAT THIS DOES BUT IT WORKS   */
 code >span.token {
@@ -262,7 +271,7 @@ span.token.boolean{
 
 /*Code bg wrapper*/
 .codeWrapper>:nth-child(2) {
-background-color: #1d2021 !important;
+background-color: #282828 !important;
 }
 
 
@@ -310,7 +319,7 @@ background-color: #1d2021 !important;
 
 .dark\:bg-backgroundDark  { 
     --tw-bg-opacity: 1; 
-    background-color: #1a1b1d !important;
+    background-color: #17191b !important;
 } 
 
 
