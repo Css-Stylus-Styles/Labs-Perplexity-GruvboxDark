@@ -369,10 +369,10 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 
 
 
-
-
-
-
+/*Html background  is same as the main color   */
+	body , html {
+		background-color : #1a1b1d !important ; 
+	}
 
 
 
