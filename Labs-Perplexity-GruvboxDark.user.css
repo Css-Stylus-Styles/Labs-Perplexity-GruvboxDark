@@ -113,6 +113,7 @@
 		/*Text inside backticks*/
     --tw-prose-code: #689d6a !important;
 
+/*Block around code block  		 */
 		/*Border around the code block*/
     --tw-prose-pre-bg: #17191b !important;
    
