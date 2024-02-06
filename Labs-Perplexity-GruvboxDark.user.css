@@ -310,7 +310,7 @@ background-color: #1d2021 !important;
 
 .dark\:bg-backgroundDark  { 
     --tw-bg-opacity: 1; 
-    background-color: #16181a !important;
+    background-color: #1a1b1d !important;
 } 
 
 
@@ -373,27 +373,10 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 
 
 
-/*This is thankfully not being applied  */
 
-/* This where the Perplexity AI website styles will be  */
 
-/* big text where knowledge begins is hidden*/
-/* I dont like the way it looks i want to keep the page minimal */ 
-.text-4xl {
-	opacity: 0 !important ; 
-  font-size: 3rem;
-	color: #79740e !important; 
-	
-  line-height: 1;
-  font-family: "Arial", sans-serif;
-  font-weight: 400;
-}
 
-/* Side bar colors for older chats 
-new thread color as well   */
-.line-clamp-1, .line-clamp-2 {
-  color: #8ec07c !important
-}
+
 
 
 
