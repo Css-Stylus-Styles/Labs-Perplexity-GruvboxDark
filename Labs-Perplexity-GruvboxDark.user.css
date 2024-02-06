@@ -190,7 +190,7 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
 
 /*languuage name */
 div.absolute.text-textMainDark{
-	color:#8ec07c !important; 
+	color:#fb4934 !important; 
 }
 
 
@@ -198,7 +198,7 @@ div.absolute.text-textMainDark{
 /*CODE BLOCKS */
 Code{
 	font-family:/*"CommitMono" ,  , "Jetbrains Mono","Cascadia Code" , "chivo Mono"         */ "CommitMono" , monospace!important; 
-	font-size: 0.85rem !important; 
+	font-size: 0.8rem !important; 
 	font-weight: 500 !important; 
 	
 	line-height: 1.2rem !important ; 
@@ -211,7 +211,7 @@ Code{
 /*I DONT KNOW WHAT THIS DOES BUT IT WORKS   */
 code >span.token {
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
-	font-size: 0.85rem !important; 
+	font-size: 0.8rem !important; 
 	font-weight: 500 !important;
 	color : #b8bb26 !important ; 
 }
@@ -221,7 +221,7 @@ code >span.token {
 /*Code attribute values*/
 span.token.attr-value{
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
-font-size: 0.9rem !important; 
+font-size: 0.85rem !important; 
 	font-weight: 500 !important;
 	color:#fb4934 !important;
 }
@@ -230,7 +230,7 @@ font-size: 0.9rem !important;
 /*Realted to code -> self explanorty*/
 code>span.token.punctuation{
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
-	font-size: 0.9rem !important; 
+	font-size: 0.85rem !important; 
 	font-weight: 500 !important;
 	color:#689d6a !important;
 }
@@ -242,7 +242,7 @@ code>span.token.punctuation{
 /*operators in code*/
 code>span.token.operator{
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
-font-size: 0.8rem !important; 
+font-size: 0.85rem !important; 
 	font-weight: 500 !important;
 	color: #fb4934 !important;
 }
@@ -250,7 +250,7 @@ font-size: 0.8rem !important;
 /*BOOLEAN */
 span.token.boolean{
 	color: #8ec07c !important;
-	font-size: 0.8rem !important; 
+	font-size: 0.85rem !important; 
 	font-weight: 500 !important;
 }
 
