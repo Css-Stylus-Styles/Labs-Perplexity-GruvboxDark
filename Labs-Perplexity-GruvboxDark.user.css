@@ -175,7 +175,7 @@ background : #3c3836 !important ;
 	
 /*Copy Icon 	 */
 	.hebEKa .icon {
-		fill: #79740E !important;
+		fill: #FE8019 !important;
     width: 1rem;
     height: 1rem;
 }
@@ -297,8 +297,8 @@ code>span.token.punctuation{
 /*operators in code*/
 code>span.token.operator{
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
-font-size: 0.9rem !important; 
-	font-weight: 500 !important;
+font-size: 1rem !important; 
+	font-weight: 900 !important;
 	color: #fb4934 !important;
 }
 
