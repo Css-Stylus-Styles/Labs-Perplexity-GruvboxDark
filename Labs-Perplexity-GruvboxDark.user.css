@@ -110,12 +110,12 @@
     --tw-prose-body: #ebdbb2 ;
 	
     
-		/*Text inside backticks*/
-    --tw-prose-code: #689d6a !important;
+
 
 /*Block around code block  		 */
 		/*Border around the code block*/
-    --tw-prose-pre-bg: #17191b !important;
+		
+    --tw-prose-pre-bg: #1F1E1D !important;
    
 }
 	
@@ -146,7 +146,11 @@
 }
 
 	
-
+/* ASK   Preplexity   hover 	 */
+.whitespace-nowrap:hover{
+    white-space: nowrap;
+background : #3c3836 !important ; 
+}
 		
 
 
@@ -159,7 +163,7 @@
 	
 		/*Copy Button Aask perplexity PLX  And tey perplcity text button */
 	.text-align-center.relative {
-		color:#98971a !important;
+		color:#79740E !important;
 }
 
 	
@@ -167,8 +171,11 @@
 .dark .dark\:border-borderMainDark\/80 {
     border-color: #79740e85;
 }
+	
+	
+/*Copy Icon 	 */
 	.hebEKa .icon {
-		fill: #b8bb26 !important;
+		fill: #79740E !important;
     width: 1rem;
     height: 1rem;
 }
@@ -178,40 +185,60 @@ svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
 	color: #fb4934 !important;
     
 }
+	
+	
+	
 /*Color of hte bottom timelimnes*/
 /*Tokens per second and more */
 	
 .tracking-wide {
-	color:#8ec07c !important;
+	color:#FFD29C !important;
+
     letter-spacing: .025em;
 }
 
-
+/* color of the token/second 	 */
+div.inline.default{
+	color : #B8BB26 !important ; 
+	font-size: 12px !important ; 
+	font-family: "CommitMono", monospace !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 /*languuage name */
 div.absolute.text-textMainDark{
 	color:#fb4934 !important; 
-}
 
+	transform: translatey(-50%) !important ; 
+/* padding : 0.01rem   48rem !important;  */
+	}
+
+	 
 
 
 /*CODE BLOCKS */
 Code{
 	font-family:/*"CommitMono" ,  , "Jetbrains Mono","Cascadia Code" , "chivo Mono"         */ "CommitMono" , monospace!important; 
-	font-size: 0.8rem !important; 
+	font-size: 0.9rem !important; 
 	font-weight: 500 !important; 
 	
 	line-height: 1.2rem !important ; 
-	color: #f57d26 !important;
-	background: #17191b !important ; 
-}
-
+	color: #fe8019 !important;
+	background: #17191b   !important ; 
+	}
 
 	
-/* 	 light background color */
-div.default.font-sans{
-	background-color : #1a1b1d !important ; 
-	}
+
 
 
 	
@@ -220,28 +247,47 @@ div.default.font-sans{
 /*I DONT KNOW WHAT THIS DOES BUT IT WORKS   */
 code >span.token {
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
-	font-size: 0.8rem !important; 
+	font-size: 0.9rem !important; 
 	font-weight: 500 !important;
 	color : #b8bb26 !important ; 
 }
 
 
+	/*Code direcgive first token */
+span.token.directive{
+		font-family:'CommitMono' ,   "Cascadia Code", monospace   !important; 
+font-size: 0.85rem !important; 
+	font-weight: 600 !important;
+	color:#8EC07C !important;
+}
+	
+	
+	/* COde > libraries and stuff */
+span.token{
+		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
+font-size: 0.85rem !important; 
+	font-weight: 600 !important;
+	color:#FB4934 !important;
+}
+	
+	
+	
 
 /*Code attribute values*/
 span.token.attr-value{
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
-font-size: 0.85rem !important; 
-	font-weight: 500 !important;
-	color:#fb4934 !important;
+font-size: 0.9rem !important; 
+	font-weight: 600 !important;
+	color:#FB4934 !important;
 }
 
 
 /*Realted to code -> self explanorty*/
 code>span.token.punctuation{
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
-	font-size: 0.85rem !important; 
+	font-size: 0.9rem !important; 
 	font-weight: 500 !important;
-	color:#689d6a !important;
+	color:#D3869B !important;
 }
 
 
@@ -251,7 +297,7 @@ code>span.token.punctuation{
 /*operators in code*/
 code>span.token.operator{
 		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
-font-size: 0.85rem !important; 
+font-size: 0.9rem !important; 
 	font-weight: 500 !important;
 	color: #fb4934 !important;
 }
@@ -271,7 +317,7 @@ span.token.boolean{
 
 /*Code bg wrapper*/
 .codeWrapper>:nth-child(2) {
-background-color: #282828 !important;
+background-color: #16181a !important;
 }
 
 
@@ -300,17 +346,17 @@ background-color: #282828 !important;
 
 
 
-/*Black input area and more **ASK ANYTHING AREA***/
+/*Black input area and text reponse area  **ASK ANYTHING AREA***/
 .dark\:bg-offsetDark  { 
     --tw-bg-opacity: 1; 
-    background-color:#16181a !important;
+    background-color:#1f1e1e !important;
 } 
 
 
 
 /*BOrder around the app*/
 .dark\:border-borderMainDark\/80  { 
-    border-color: #1d2021 !important;
+    border-color: #79740e85 !important;
 } 
   
 
@@ -324,9 +370,9 @@ background-color: #282828 !important;
 
 
 
-/*MAIN MIDDLE CODE BLOCK GROUYDN COLOR   */
+/*MAIN MIDDLE CODE BLOCK color   */
 div.sc-gEvEer.ePundr >span{
-	background: #16181a !important ; 
+	background: #17191b !important ; 
 }
 
 
@@ -362,7 +408,7 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 
 	font-size: 1rem !important; 
     font-weight: bolder;
- color : #79740e !important; 
+ color : #B16286 !important; 
 }
 
 
@@ -370,7 +416,7 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 
 
 /*Html background  is same as the main color   */
-	body , html {
+	html {
 		background-color : #1a1b1d !important ; 
 	}
 
@@ -379,11 +425,17 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 
 
 
+/*Input text that you enter   */
+	textarea {
+		 
+		color : #b8bb26 !important ; 
+	}
 
-
-
-
-
+ 
+/* H3 energy	 */
+	h3{
+		color : #79740e !important ; 
+	}
 
 
 
@@ -394,9 +446,10 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 
 .\[word-break\:break-word\] {
     word-break: break-word;
-	color : #ebdbb2 !important ; 
-}
+	color : #ffd29c  !important;
 
+	
+	}
 
 
 
