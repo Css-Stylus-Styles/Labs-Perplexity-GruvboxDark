@@ -331,9 +331,11 @@ background-color: #16181a !important;
 	}
 	
 	
-
-
-
+	/* LLM served by Perplexity  labs */
+div.light.font-sans.text-base.font-medium.text-textOff{
+	color : #665C54 !important  ; 
+	
+}
 
 
 
