@@ -474,8 +474,58 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 	
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/*Table styles */
+	
+	/*Table header */
+	th.px-sm.py-sm.whitespace-nowrap{
+	color : #FE8019 !important ; 
+	
+	}
+	
+	/*Table contenet*/
+	td.px-sm.border.border-borderMain {
+		color :#ABAA1E !important ; 
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 
 	
 	
-}
+}}
