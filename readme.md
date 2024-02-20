@@ -7,6 +7,10 @@
 3. [Installation Instructions](#installation-instructions)
 4. [Screenshot](#screenshot)
 
+
+
+
+
 ## Description <a name="description"></a>
 
 This user style applies the  gruvbox theme to  [Perplexity Labs](https://labs.perplexity.ai/) 
@@ -14,6 +18,12 @@ This user style applies the  gruvbox theme to  [Perplexity Labs](https://labs.pe
 - Applies the Gruvbox Dark theme to the entire Perplexity Labs interface, including code blocks, inline markdown , and tables .
 - Improves code block colors for better readability and contrast.
  - Enhances separation of elements for easier navigation and focus.
+
+]
+
+
+
+
 
 
 ## Prerequisites <a name="Pre"></a>
@@ -23,6 +33,9 @@ here are links and steps to install this
 ## _Important:_
 
 >  Make sure you have Stylus Extension installed. If you don't have it installed already, [CLICK HERE](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) to install it from Chrome Webstore. You can pin it to see the active styles on any website at any time.
+
+
+
 
 
 
