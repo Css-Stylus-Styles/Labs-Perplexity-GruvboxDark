@@ -58,9 +58,11 @@ Two right next to the icon shows that there are two styles active for the websti
 >When  you go to google Colab website you should see a 1 next to the extension icon 
 
 
-## Screenshot <a name="screenshot"></a>
+## Screenshots<a name="screenshot"></a>
 
-#### Response 
+
+
+### Response 
 
 
 
