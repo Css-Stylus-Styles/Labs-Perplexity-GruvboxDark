@@ -1,11 +1,6 @@
 # Perplexity Labs Gruvbox Dark
 
 
-
-
-# Google Colab Gruvbox 
-
-
 ## Table of Contents
 1. [Description](#description)
  2. [Prerequisites](#Pre)
@@ -16,10 +11,9 @@
 
 This user style applies the  gruvbox theme to  [Perplexity Labs](https://labs.perplexity.ai/) 
 
-- Applies the Gruvbox Dark theme to the entire Perplexity Labs interface, including code editors, terminals, and other elements.
+- Applies the Gruvbox Dark theme to the entire Perplexity Labs interface, including code blocks, inline markdown , and tables .
 - Improves code block colors for better readability and contrast.
  - Enhances separation of elements for easier navigation and focus.
-- Reduces eye strain when working in low-light conditions
 
 
 ## Prerequisites <a name="Pre"></a>
@@ -53,12 +47,12 @@ Two right next to the icon shows that there are two styles active for the websti
 
 ## Screenshot <a name="screenshot"></a>
 
-#### Front page single cell view 
+#### Response 
 
 
 
 
-#### Multiple cells preview
+### Code Blocks
 
 
 
