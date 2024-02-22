@@ -346,7 +346,7 @@ div.light.font-sans.text-base.font-medium.text-textOff{
 /*Lower seperator*/
 /*Ask anything user input seperator*/
 :not([hidden]) ~ :not([hidden])  { 
-    border-color: #d5c4a152 !important;
+    border-color: #282828 !important;
 } 
 
 
@@ -357,9 +357,15 @@ div.light.font-sans.text-base.font-medium.text-textOff{
 /*Black input area and text reponse area  **ASK ANYTHING AREA***/
 .dark\:bg-offsetDark  { 
     --tw-bg-opacity: 1; 
-    background-color:#1f1e1e !important;
+    background-color:#16181A !important;
 } 
-
+	/*Hover styles for the Black input area */
+.dark\:bg-offsetDark:hover{ 
+    --tw-bg-opacity: 1; 
+    background-color:#1A1B1D !important;
+}
+	
+	
 
 
 /*BOrder around the app*/
