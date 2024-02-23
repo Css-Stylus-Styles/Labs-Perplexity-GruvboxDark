@@ -43,7 +43,7 @@ here are links and steps to install this
 
 
 
-To install the style, go to this [LINK HERE](ADD link here) and follow the instructions to install this style. 
+To install the style, go to this [Perplexity Labs Gruvbox Dark Theme](https://userstyles.world/style/14924/perplexity-labs-gruvbox-dark-theme) and follow the instructions to install this style. 
 
 
 
