@@ -62,25 +62,34 @@ Two right next to the icon shows that there are two styles active for the websti
 
 
 
-### Response 
+### Response From Model 
+
+Response Text 
+
+
+![Perplexity labs Dark chat interface](https://github.com/bilalazh/Labs-Perplexity-GruvboxDark/assets/139261053/aec6c1ad-cc56-4581-b668-e158752da7d1)
+
 
 
 
 
 ### Code Blocks
+Code Colors with syntax highlighting 
 
-
+![Perplexity labs Dark code interface ](https://github.com/bilalazh/Labs-Perplexity-GruvboxDark/assets/139261053/5cce6c31-ae87-4259-b609-a35b0b9366de)
 
 
 
 ### Tables 
 
+Markdown tables 
+
+
+![Perplexity labs Dark Markdown Table ](https://github.com/bilalazh/Labs-Perplexity-GruvboxDark/assets/139261053/b7c1524c-733b-44f8-a19a-0cd28dd62bab)
 
 
 
 
 
-#### TODOs : 
 
-- Change Background color a little 
 
