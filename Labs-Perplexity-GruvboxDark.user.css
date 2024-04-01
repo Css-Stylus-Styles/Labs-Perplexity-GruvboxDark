@@ -443,7 +443,8 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 
 	font-size: 1rem !important; 
     font-weight: bolder;
- color : #B16286 !important; 
+ color : #98971a !important; 
+	font-family: "CommitMono"
 }
 
 
