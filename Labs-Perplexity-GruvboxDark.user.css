@@ -1,3 +1,4 @@
+
 /* ==UserStyle==
 @name           labs.perplexity.ai - Jan 2024
 @namespace      github.com/openstyles/stylus
@@ -120,11 +121,28 @@
 }
 	
 	
-/*Select models 	 */
+/*Select Models	 */
 	
-	#lamma-select{
-		color:#98971a !important;
+		#lamma-select{
+		color:#fe8019 !important;
+		background-color : #16181a !important ; 
+		
+		/*Font and other properties */
+		font-family: "commitMono" !important ;
+		font-size: 0.9rem !important ; 
+		font-weight: 600 !important ; 
 	}
+	
+	#lamma-select > option {
+  color: #b8bb26; /* Set the text color of the options */
+  background-color: #16181a; /* Set the background color of the options */
+		
+		
+		/*Font perpteis for inside the div*/
+		font-family: "commitMono" !important ;
+		font-size: 0.9rem !important ; 
+		font-weight: 600 !important ; 	
+}
 	
 	
 	
@@ -269,6 +287,7 @@ font-size: 0.85rem !important;
 	font-weight: 600 !important;
 	color:#FB4934 !important;
 }
+	
 	
 	
 	
@@ -539,3 +558,4 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 	
 	
 }
+
