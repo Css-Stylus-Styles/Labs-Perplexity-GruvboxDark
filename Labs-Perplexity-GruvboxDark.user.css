@@ -156,11 +156,11 @@
 	
 	
 	
-/* NOT SURE WHAT THIS APPLIES TO 	 */
+/* PLX API BUTTON	 */
 	.dark .dark\:bg-offsetPlusDark {
     --tw-bg-opacity: 1;
 		color:#cc241d !important;
-    background-color: #d5c4a1 ;
+    background-color: #282828 ;
 }
 
 	
@@ -176,12 +176,13 @@ background : #3c3836 !important ;
 	.dark .dark\:bg-superDark {
     --tw-bg-opacity: 1;
 		color:#79740e !important;
-    background-color: #ebdbb2 !important;
+    background-color: #282828 !important;
 }
 	
 		/*Copy Button Aask perplexity PLX  And tey perplcity text button */
 	.text-align-center.relative {
-		color:#79740E !important;
+		color:#fe8019 !important;
+		font-size: 0.8rem !important ; 
 }
 
 	
