@@ -382,7 +382,8 @@ div.light.font-sans.text-base.font-medium.text-textOff{
 	/*Hover styles for the Black input area */
 .dark\:bg-offsetDark:hover{ 
     --tw-bg-opacity: 1; 
-    background-color:#1A1B1D !important;
+    background-color:#16181a !important;
+	
 }
 	
 	
@@ -468,6 +469,8 @@ color: #83a598 !important ;
 	textarea {
 		 
 		color : #b8bb26 !important ; 
+		
+		font-family: "harding Text web Regular" !important ; 
 	}
 
  
