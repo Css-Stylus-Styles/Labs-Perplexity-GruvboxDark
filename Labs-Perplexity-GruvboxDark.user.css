@@ -352,7 +352,7 @@ background-color: #16181a !important;
 	
 	/* LLM served by Perplexity  labs */
 div.light.font-sans.text-base.font-medium.text-textOff{
-	color : #665C54 !important  ; 
+	color : #7c6f64 !important  ; 
 	
 }
 
@@ -433,9 +433,11 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 
 
 
+/*Formatting change */
 
-
-
+	h2{
+color: #83a598 !important ; 
+	}
 
 /*BOLD TEXT   */
 	.prose :where(strong):not(:where([class~=not-prose] *)) 
