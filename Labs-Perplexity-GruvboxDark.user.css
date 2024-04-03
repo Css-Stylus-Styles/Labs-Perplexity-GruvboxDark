@@ -46,7 +46,6 @@
     --dim-purple: #b16286;
     --bg0-light: #f0edd8;
     --bg1-light: #f6f1dd;
-    ght: #fdf6e3;
     --bg2-light: #f3efda;
     --bg3-light: #edead5;
     --bg4-light: #e4e1cd;
@@ -468,7 +467,7 @@ color: #83a598 !important ;
 /*Input text that you enter   */
 	textarea {
 		 
-		color : #f9f5d7 !important ; 
+		color : #d5c4a1 !important ; 
 		
 		font-family: "harding Text web Regular" !important ; 
 	}
