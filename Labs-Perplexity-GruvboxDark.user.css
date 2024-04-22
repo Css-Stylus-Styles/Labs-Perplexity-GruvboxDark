@@ -112,10 +112,7 @@
     
 
 
-/*Block around code block  		 */
-		/*Border around the code block*/
 		
-    --tw-prose-pre-bg: #1F1E1D !important;
    
 }
 	
@@ -244,17 +241,42 @@ div.absolute.text-textMainDark{
 	 
 
 
-/*CODE BLOCKS */
+
+	
+	
+	
+	
+	/*CODE BLOCKS */
 Code{
 	font-family:/*"CommitMono" ,  , "Jetbrains Mono","Cascadia Code" , "chivo Mono"         */ "CommitMono" , monospace!important; 
 	font-size: 0.9rem !important; 
 	font-weight: 500 !important; 
-	
+	border-radius: 9px !important  ; 
 	line-height: 1.2rem !important ; 
-	color: #8EC07C !important;
-	background: #17191b   !important ; 
+	color: #98971a !important;
+	background: #16181a   !important ; 
 	}
 
+	/*Code block background*/
+		/*Code block backgorund changed*/
+	div.sc-gEvEer > span {
+  background-color: #16181a !important;
+}
+	
+	
+/*Code bg wrapper*/
+.codeWrapper>:nth-child(2) {
+background-color: #FAEDCD !important;
+}
+
+
+	/*MAIN MIDDLE CODE BLOCK COLOR */
+div.sc-gEvEer.ePundr >span{
+	background: #FAEDCD !important ; 
+}
+	
+	
+	
 	
 
 
@@ -336,11 +358,11 @@ span.token.boolean{
 
 /*Code bg wrapper*/
 .codeWrapper>:nth-child(2) {
-background-color: #16181a !important;
+background-color: #1a1b1d !important;
 }
 
 
-	
+
     
 
 /*List numbers  */
@@ -405,11 +427,6 @@ div.light.font-sans.text-base.font-medium.text-textOff{
 
 
 /*MAIN MIDDLE CODE BLOCK COLOR */
-div.sc-gEvEer.ePundr >span{
-	background: #17191b !important ; 
-}
-	
-	
 
 
 
