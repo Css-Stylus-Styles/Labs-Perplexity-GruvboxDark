@@ -2,7 +2,7 @@
 /* ==UserStyle==
 @name           labs.perplexity.ai - Jan 2024
 @namespace      github.com/openstyles/stylus
-@version        1.0.1
+@version        1.0.2
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
@@ -559,7 +559,7 @@ code{
 	font-weight: 500 !important; 
 	
 	line-height: 1.2rem !important ; 
-	color: #fb4934 !important;
+	color: #b8bb26 !important;
 	background: #1a1b1d   !important ; 
 	}
 
@@ -651,7 +651,7 @@ code span.token.punctuation{
 code span.token.operator{
   font-family: 'JetBrains Mono Variable' !important;
 font-size: 1rem !important; 
-	font-weight: 900 !important;
+	font-weight: 400 !important;
 	color: #fe8019 !important;
 }
 
