@@ -90,7 +90,7 @@ Markdown tables
 
 
 ### Todo : 
-- Change font of the interface <p>  and <li> tags
+- Change font of the interface `<p>` and `<li>` tags
 - Check for markdown tables 
 - Update Screenshots 
 - Make changes in light ver 
