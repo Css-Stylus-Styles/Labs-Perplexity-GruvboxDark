@@ -2,12 +2,308 @@
 /* ==UserStyle==
 @name           labs.perplexity.ai - Jan 2024
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.1
 @description    A new userstyle
 @author         Me
 ==/UserStyle== */
 
 @-moz-document url("https://labs.perplexity.ai/")  {
+	
+	
+	
+	
+		/* Insert code here... */
+	/*Font Import */
+	/*Importing Margon */
+	/*Margon Medium Import */
+	@font-face {
+		font-family: "Margon 360 W08 Medium";
+		src: url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.eot");
+		src: url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/90100147a9b552a477200bfb737766e5.svg#Margon 360 W08 Medium")format("svg");
+	}
+
+
+	@import url(https://db.onlinewebfonts.com/c/90100147a9b552a477200bfb737766e5?family=Margon+360+W08+Medium);
+
+
+
+
+	/*Bricolage Grotesque Import */
+	@font-face {
+		font-family: "Bricolage Grotesque";
+		src: url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.eot");
+		src: url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/102353a74d2e0700af3e11ef8a917b26.svg#Bricolage Grotesque")format("svg");
+	}
+
+
+
+	@import url(https://db.onlinewebfonts.com/c/102353a74d2e0700af3e11ef8a917b26?family=Bricolage+Grotesque);
+
+
+
+
+
+
+	/*Lora Font Import*/
+	@font-face {
+		font-family: "Lora";
+		src: url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.eot");
+		src: url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/5c803199923a6ed48112bebbb486b3e0.svg#Lora")format("svg");
+	}
+
+
+
+
+
+
+	@import url(https://db.onlinewebfonts.com/c/5c803199923a6ed48112bebbb486b3e0?family=Lora);
+
+
+
+
+
+
+
+	/*Lingistics Pro Font  */
+	@font-face {
+		font-family: "Linguistics Pro";
+		src: url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.eot");
+		src: url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/3612352f3b0606a3a5d675e7279f7c17.svg#Linguistics Pro")format("svg");
+	}
+	@import url(https://db.onlinewebfonts.com/c/3612352f3b0606a3a5d675e7279f7c17?family=Linguistics+Pro);
+
+
+
+
+
+	/*Commit Mono*/
+	@font-face {
+		font-family: "CommitMono";
+		src: url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.eot");
+		src: url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/3d911dba955015058da8755197d0a58c.svg#CommitMono")format("svg");
+	}
+
+
+
+	@import url(https://db.onlinewebfonts.com/c/3d911dba955015058da8755197d0a58c?family=CommitMono);
+
+
+
+
+
+	/*Fira Mono */
+	/* 
+	
+	Fira Mono font weights:
+  - Fira Mono 400 (Regular)
+  - Fira Mono 500 (Medium)
+  - Fira Mono 700 (Bold)
+*/
+	/* fira-mono-regular - latin */
+	/* fira-mono-latin-400-normal */
+	/* fira-mono-latin-400-normal */
+	@font-face {
+		font-family: 'Fira Mono';
+		font-style: normal;
+		font-display: auto;
+		font-weight: 400;
+		src: url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.woff) format('woff'), url(https://cdn.jsdelivr.net/fontsource/fonts/fira-mono@latest/latin-400-normal.ttf) format('truetype');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+
+
+
+
+
+
+
+
+	/* Spline Sans */
+	/* spline-sans-latin-wght-normal */
+	@font-face {
+		font-family: 'Spline Sans Variable';
+		font-style: normal;
+		font-display: auto;
+		font-weight: 300 700;
+		src: url(https://cdn.jsdelivr.net/fontsource/fonts/spline-sans:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+		unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*Hack Font */
+	@font-face {
+		font-family: "Hack";
+		src: url("https://db.onlinewebfonts.com/t/4fea277591543c1fd64a9cf06ec5803a.eot");
+		src: url("https://db.onlinewebfonts.com/t/4fea277591543c1fd64a9cf06ec5803a.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/4fea277591543c1fd64a9cf06ec5803a.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/4fea277591543c1fd64a9cf06ec5803a.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/4fea277591543c1fd64a9cf06ec5803a.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/4fea277591543c1fd64a9cf06ec5803a.svg#Hack")format("svg");
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*Karla Font Testing */
+	@font-face {
+		font-family: "Karla";
+		src: url("https://db.onlinewebfonts.com/t/750e3658d4460a397a551dfac26bb272.eot");
+		src: url("https://db.onlinewebfonts.com/t/750e3658d4460a397a551dfac26bb272.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/750e3658d4460a397a551dfac26bb272.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/750e3658d4460a397a551dfac26bb272.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/750e3658d4460a397a551dfac26bb272.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/750e3658d4460a397a551dfac26bb272.svg#Karla")format("svg");
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	@font-face {
+		font-family: "Karla Medium";
+		src: url("https://db.onlinewebfonts.com/t/b2df7a6681d7895a21fc77cda56d14dd.eot");
+		src: url("https://db.onlinewebfonts.com/t/b2df7a6681d7895a21fc77cda56d14dd.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/b2df7a6681d7895a21fc77cda56d14dd.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/b2df7a6681d7895a21fc77cda56d14dd.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/b2df7a6681d7895a21fc77cda56d14dd.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/b2df7a6681d7895a21fc77cda56d14dd.svg#Karla Medium")format("svg");
+	}
+
+
+
+
+
+
+
+	@font-face {
+		font-family: "Karla Bold";
+		src: url("https://db.onlinewebfonts.com/t/b45be274b8b65fc9c72b038d72486edd.eot");
+		src: url("https://db.onlinewebfonts.com/t/b45be274b8b65fc9c72b038d72486edd.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/b45be274b8b65fc9c72b038d72486edd.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/b45be274b8b65fc9c72b038d72486edd.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/b45be274b8b65fc9c72b038d72486edd.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/b45be274b8b65fc9c72b038d72486edd.svg#Karla Bold")format("svg");
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*Archivo Font */
+	@font-face {
+		font-family: "Archivo";
+		src: url("https://db.onlinewebfonts.com/t/9868bcbea8d6cd3f78182d7829e5dd3e.eot");
+		src: url("https://db.onlinewebfonts.com/t/9868bcbea8d6cd3f78182d7829e5dd3e.eot?#iefix")format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/9868bcbea8d6cd3f78182d7829e5dd3e.woff2")format("woff2"),
+		url("https://db.onlinewebfonts.com/t/9868bcbea8d6cd3f78182d7829e5dd3e.woff")format("woff"),
+		url("https://db.onlinewebfonts.com/t/9868bcbea8d6cd3f78182d7829e5dd3e.ttf")format("truetype"),
+		url("https://db.onlinewebfonts.com/t/9868bcbea8d6cd3f78182d7829e5dd3e.svg#Archivo")format("svg");
+	}
+
+
+
+
+
+
+/* literata-latin-wght-normal */
+@font-face {
+  font-family: 'Literata Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 200 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/literata:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+
+
+
+
+	
+	/* jetbrains-mono-latin-wght-normal */
+@font-face {
+  font-family: 'JetBrains Mono Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 800;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/jetbrains-mono:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
     /* Insert code here... */
 	
 	:root {
@@ -105,14 +401,15 @@
 	
 	
 	
+	
+	
 	.dark .dark\:prose-invert {
 		/*Main Text color*/
-    --tw-prose-body: #ebdbb2 ;
+    --tw-prose-body: #f9f5d7 ;
 	
-    
-
-
-		
+/*Block around code block  		 */
+		/*Border around the code block*/
+    --tw-prose-pre-bg: #16181a !important;
    
 }
 	
@@ -124,7 +421,7 @@
 		background-color : #16181a !important ; 
 		
 		/*Font and other properties */
-		font-family: "commitMono" !important ;
+  font-family: 'JetBrains Mono Variable' !important;
 		font-size: 0.9rem !important ; 
 		font-weight: 600 !important ; 
 	}
@@ -148,6 +445,7 @@
 .tracking-widest {
     letter-spacing: .1em;
 	color:#79740e !important;
+	font-family: "JetBrains Mono Variable" !important ; 
 }
 	
 	
@@ -179,6 +477,8 @@ background : #3c3836 !important ;
 	.text-align-center.relative {
 		color:#fe8019 !important;
 		font-size: 0.8rem !important ; 
+	
+  font-family: 'JetBrains Mono Variable' !important;
 }
 
 	
@@ -232,87 +532,95 @@ div.inline.default{
 
 /*languuage name */
 div.absolute.text-textMainDark{
-	color:#fb4934 !important; 
+	color:#f9f5d7 !important; 
 
 	transform: translatey(-50%) !important ; 
 /* padding : 0.01rem   48rem !important;  */
 	}
 
 	 
+	.dark .dark\:bg-offsetPlusDark {
+    --tw-bg-opacity: 1;
+    color: #98971a !important;
+    background-color: #282828;
+		font-family: "JetBrains Mono Variable" !important ; 
+		
+		
+}
+	
+	
 
 
-
+/*CODE BLOCKS */
+code{
 	
-	
-	
-	
-	/*CODE BLOCKS */
-Code{
-	font-family:/*"CommitMono" ,  , "Jetbrains Mono","Cascadia Code" , "chivo Mono"         */ "CommitMono" , monospace!important; 
+  font-family: 'JetBrains Mono Variable' !important;
 	font-size: 0.9rem !important; 
 	font-weight: 500 !important; 
-	border-radius: 9px !important  ; 
+	
 	line-height: 1.2rem !important ; 
-	color: #98971a !important;
-	background: #16181a   !important ; 
+	color: #fb4934 !important;
+	background: #1a1b1d   !important ; 
 	}
 
-	/*Code block background*/
-		/*Code block backgorund changed*/
-	div.sc-gEvEer > span {
-  background-color: #16181a !important;
-}
 	
-	
-/*Code bg wrapper*/
-.codeWrapper>:nth-child(2) {
-background-color: #FAEDCD !important;
+
+	/*Tokeb that indicate class or type def */
+span.token.token[style="color: rgb(137, 89, 168); font-weight: bolder;"] {
+  font-family: 'JetBrains Mono Variable' !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  color: #b8bb26 !important;
 }
 
 
-	/*MAIN MIDDLE CODE BLOCK COLOR */
-div.sc-gEvEer.ePundr >span{
-	background: #FAEDCD !important ; 
+	/*Defined stuff in C based languages */
+	
+span.token.macro.property.macro-name{
+  font-family: 'JetBrains Mono Variable' !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  color: #fb4934 !important;
+}
+	
+	/*Comments */
+	span.token.token[style*="color: rgb(142, 144, 140); font-family: inherit; font-style: italic;"] {
+  font-family: 'JetBrains Mono Variable' !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  color: #928374 !important;
 }
 	
 	
 	
-	
-	/*Code Language */
-	
-	div.absolute {
-		color: #fe8019 !important ; 
-	}
-
-
-	
-	
-
-/*I DONT KNOW WHAT THIS DOES BUT IT WORKS   */
-code >span.token {
-		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
-	font-size: 0.9rem !important; 
-	font-weight: 500 !important;
-	color : #b8bb26 !important ; 
+	/*Funcion names and argments in C based langauges */
+	span[style*="color: rgb(77, 77, 76);"] {
+	color : #83a598 !important ; 
+		font-family: "JetBrains Mono Variable" !important; 
+  position: relative;
 }
-
-
+	
+	
+		/*Libraries in C based languages*/
+		span.token.token.macro.property[style="color: rgb(113, 140, 0);"]{
+  font-family: 'JetBrains Mono Variable' !important;
+  font-size: 0.85rem !important;
+  font-weight: 600 !important;
+  color: #fe8019 !important;
+}
+	
+	
+	
+	/*Not sure about this may change this  later*/
 	/*Code direcgive first token */
 span.token.directive{
-		font-family:'CommitMono' ,   "Cascadia Code", monospace   !important; 
+  font-family: 'JetBrains Mono Variable' !important;
 font-size: 0.85rem !important; 
 	font-weight: 600 !important;
-	color:#8EC07C !important;
+	color:#70a85b !important;
 }
 	
 	
-	/* COde > libraries and stuff */
-span.token{
-		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
-font-size: 0.85rem !important; 
-	font-weight: 600 !important;
-	color:#FB4934 !important;
-}
 	
 	
 	
@@ -320,35 +628,36 @@ font-size: 0.85rem !important;
 
 /*Code attribute values*/
 span.token.attr-value{
-		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
+  font-family: 'JetBrains Mono Variable' !important;
 font-size: 0.9rem !important; 
 	font-weight: 600 !important;
-	color:#FB4934 !important;
+	color:#7c6f64 !important;
 }
 
 
 /*Realted to code -> self explanorty*/
-code>span.token.punctuation{
-		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
+code span.token.punctuation{
+  font-family: 'JetBrains Mono Variable' !important;
 	font-size: 0.9rem !important; 
 	font-weight: 500 !important;
-	color:#D3869B !important;
+	color:#fb4934 !important;
 }
 
-
+	
 
 
 
 /*operators in code*/
-code>span.token.operator{
-		font-family:"CommitMono" ,  "chivo Mono" , "Jetbrains Mono",  "Cascadia Code", monospace   !important; 
+code span.token.operator{
+  font-family: 'JetBrains Mono Variable' !important;
 font-size: 1rem !important; 
 	font-weight: 900 !important;
-	color: #fb4934 !important;
+	color: #fe8019 !important;
 }
 
 /*BOOLEAN */
 span.token.boolean{
+  font-family: 'JetBrains Mono Variable' !important;
 	color: #8ec07c !important;
 	font-size: 0.85rem !important; 
 	font-weight: 500 !important;
@@ -357,28 +666,30 @@ span.token.boolean{
 
 
 
+	
+	
 
 
 
 /*Code bg wrapper*/
 .codeWrapper>:nth-child(2) {
-background-color: #1a1b1d !important;
+background-color: #1d2021 !important;
 }
 
 
-
+	
     
 
 /*List numbers  */
 	li::marker{
 		color : #FB4934 !important ; 
-		
+  font-family: 'JetBrains Mono Variable' !important;
 	}
 	
 	
 	/* LLM served by Perplexity  labs */
 div.light.font-sans.text-base.font-medium.text-textOff{
-	color : #7c6f64 !important  ; 
+	color : #fe8019 !important  ; 
 	
 }
 
@@ -391,7 +702,7 @@ div.light.font-sans.text-base.font-medium.text-textOff{
 /*Lower seperator*/
 /*Ask anything user input seperator*/
 :not([hidden]) ~ :not([hidden])  { 
-    border-color: #282828 !important;
+    border-color: #3c3836 !important;
 } 
 
 
@@ -416,7 +727,7 @@ div.light.font-sans.text-base.font-medium.text-textOff{
 
 /*BOrder around the app*/
 .dark\:border-borderMainDark\/80  { 
-    border-color: #79740e85 !important;
+    border-color: #79740ead !important;
 } 
   
 
@@ -431,6 +742,11 @@ div.light.font-sans.text-base.font-medium.text-textOff{
 
 
 /*MAIN MIDDLE CODE BLOCK COLOR */
+div.sc-gEvEer.ePundr >span{
+	background: #282828 !important ; 
+}
+	
+	
 
 
 
@@ -458,7 +774,8 @@ a.break-word.decoration-from-font.underline.underline-offset-1:hover{
 /*Formatting change */
 
 	h2{
-color: #83a598 !important ; 
+color: #98971a !important ; 
+		font-family: "Bricolage Grotesque" !important ; 
 	}
 
 /*BOLD TEXT   */
@@ -467,8 +784,8 @@ color: #83a598 !important ;
 
 	font-size: 1rem !important; 
     font-weight: bolder;
- color : #98971a !important; 
-	font-family: "CommitMono"
+ color : #fe8019 !important; 
+	font-family: "Jetbrains Mono Variable" !important ; 
 }
 
 
@@ -489,14 +806,14 @@ color: #83a598 !important ;
 	textarea {
 		 
 		color : #d5c4a1 !important ; 
-		
-		font-family: "harding Text web Regular" !important ; 
+		font-family: "Literata Variable" !important ; 
 	}
 
  
 /* H3 energy	 */
 	h3{
 		color : #79740e !important ; 
+		font-family: "Bricolage Grotesque" !important ; 
 	}
 
 
@@ -505,6 +822,7 @@ color: #83a598 !important ;
 	/*H4 heading */
 	h4{
 		color : #83A598 !important  ; 
+		font-family: "Bricolage Grotesque" !important ; 
 	}
 	
 	
@@ -516,6 +834,7 @@ color: #83a598 !important ;
 /* 	Italic font for the empahsis  */
 	em{
 		color  : #98971A !important ; 
+		font-family: "Bricolage Grotesque" !important ; 
 	}
 
 
@@ -555,19 +874,19 @@ color: #83a598 !important ;
 	
 	
 	
-	
-	
 /*Table styles */
 	
 	/*Table header */
 	th.px-sm.py-sm.whitespace-nowrap{
 	color : #FE8019 !important ; 
+		font-family: "Bricolage Grotesque" !important ; 
 	
 	}
 	
 	/*Table contenet*/
 	td.px-sm.border.border-borderMain {
 		color :#ABAA1E !important ; 
+		font-family: "Bricolage Grotesque" !important ; 
 	}
 	
 	
